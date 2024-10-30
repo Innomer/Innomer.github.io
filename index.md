@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+permalink: /
 ---
 
 # Mann Bhanushali
@@ -9,9 +10,9 @@ Final-year CS undergrad specializing in Machine Learning, Computer Vision, and R
 Welcome to my portfolio! Here, you'll find a showcase of my projects, research, and achievements in fields ranging from autonomous drones and rovers to neural network optimizations.
 
 ## Quick Links
-- [Projects](./projects.md)
-- [Achievements](./achievements.md)
-- [Publications](./publications.md)
-- [Contact](./contact.md)
+- [Projects](./projects/)
+- [Achievements](./achievements/)
+- [Publications](./publications/)
+- [Contact](./contact/)
 
 ---
