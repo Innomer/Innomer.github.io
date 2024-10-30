@@ -1,4 +1,16 @@
 /* Global Theme Colors */
+body::before {
+    content: "";
+    background: url('../images/bg.jpg') center/cover fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
 body {
     background-color: #0a0e1a;
     /* Dark space-inspired background */
@@ -71,16 +83,4 @@ button:hover {
 
 .card:hover {
     animation: glow 1.5s infinite;
-}
-
-body::before {
-    content: "";
-    background: url('../images/bg.jpg') center/cover fixed;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.2;
 }
