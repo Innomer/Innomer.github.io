@@ -3,6 +3,7 @@ layout: default
 title: Projects
 permalink: /projects/
 ---
+
 # Projects
 
 ## Autonomous Drone for Flood Management
