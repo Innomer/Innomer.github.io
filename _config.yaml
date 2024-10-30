@@ -1,4 +1,10 @@
 remote_theme: mmistakes/minimal-mistakes@latest
+remote_theme: "mmistakes/minimal-mistakes@latest"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-github-metadata
 sass:
   load_paths:
     - assets/css/styles.css
