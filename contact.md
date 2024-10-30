@@ -3,13 +3,21 @@ layout: default
 title: Contact
 permalink: /contact/
 ---
+# Get in Touch 🚀
 
-# Contact
+I’m always open to new ideas, opportunities, or collaborations! Whether you have a question about my projects or just want to share your favorite gaming strategies, don’t hesitate to reach out.
 
-Feel free to reach out if you have any questions, opportunities, or ideas for collaboration!
+## Let's Connect!
 
-- **Email**: your.email@example.com
-- **LinkedIn**: [linkedin.com/in/mannbhanushali](https://linkedin.com/in/yourprofile)
-- **GitHub**: [github.com/username](https://github.com/username)
+- **Email**: [bhanushalimann@gmail.com](mailto:bhanushalimann@gmail.com)
+- **LinkedIn**: [linkedin.com/in/innomer](https://linkedin.com/in/innomer)
+- **GitHub**: [github.com/Innomer](https://github.com/Innomer)
 
+## Drop a Line or Slide into My DMs! ✉️
+
+If you have any questions, brainstorming sessions, or just want to chat about the latest in AI, feel free to hit me up! I promise I won’t bite—unless it’s during a heated gaming session. 😉
+
+---
+
+Feel free to drop your thoughts below or reach out through one of the platforms above. Looking forward to connecting!
 ---
