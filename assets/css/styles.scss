@@ -2,7 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-body::before {
+body::before { 
     content: "";
     background: url('../images/bg.jpg') center/cover fixed;
     position: fixed;
