@@ -1,1 +1,4 @@
 remote_theme: mmistakes/minimal-mistakes@latest
+sass:
+  load_paths:
+    - assets/css/styles.css

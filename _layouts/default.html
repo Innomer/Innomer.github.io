@@ -1,0 +1,46 @@
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<script>
+    // Smooth Scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
+    
+
+<style>
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        background-color: #1a365d;
+        display: flex;
+        justify-content: space-around;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    nav ul li a {
+        color: #ffffff;
+        padding: 15px;
+        display: inline-block;
+        transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+        color: #4fd1c5;
+    }
+</style>
