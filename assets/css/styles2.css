@@ -59,6 +59,7 @@
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
 } */
+/* Background Layers for Stars */
 .stars, .twinkling {
     position: fixed;
     top: 0;
@@ -71,9 +72,9 @@
 /* Keyframes for randomized star movement */
 @keyframes drift {
     0% { transform: translate3d(0, 0, 0); }
-    25% { transform: translate3d(-2px, 1px, 0); }
-    50% { transform: translate3d(2px, -3px, 0); }
-    75% { transform: translate3d(-1px, 2px, 0); }
+    25% { transform: translate3d(-5px, 2px, 0); }
+    50% { transform: translate3d(10px, -7px, 0); }
+    75% { transform: translate3d(-3px, 4px, 0); }
     100% { transform: translate3d(0, 0, 0); }
 }
 
@@ -87,7 +88,7 @@
     background: radial-gradient(1px 1px, rgba(255, 255, 255, 0.6), transparent 50%) 5px 5px,
                 radial-gradient(1px 1px, rgba(255, 255, 255, 0.8), transparent 50%) 10px 10px;
     background-size: 50px 50px;
-    animation: drift 30s infinite linear alternate;
+    animation: drift 60s infinite linear;
 }
 
 /* Twinkling Layer */
@@ -95,5 +96,5 @@
     background: radial-gradient(1px 1px, rgba(255, 255, 255, 0.8), transparent 50%) 15px 15px,
                 radial-gradient(1px 1px, rgba(255, 255, 255, 0.6), transparent 50%) 20px 20px;
     background-size: 100px 100px;
-    animation: drift 60s infinite linear alternate, twinkle 2s infinite ease-in-out;
+    animation: drift 120s infinite linear, twinkle 2s infinite ease-in-out;
 }
