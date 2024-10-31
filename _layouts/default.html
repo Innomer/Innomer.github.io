@@ -13,7 +13,6 @@
   <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   {% include head-custom.html %}
-  <link rel="icon" href="https://giphy.com/embed/wPsC36O34ZmNGYffak%22%20width=%22480%22%20height=%22480%22%20style=%22%22%20frameBorder=%220%22%20class=%22giphy-embed%22%20allowFullScreen%3E%3C/iframe%3E%3Cp%3E%3Ca%20href=%22https://giphy.com/gifs/MultiversX-wPsC36O34ZmNGYffak" type="image/x-icon" />
   <style>
     body {
       margin: 0;
@@ -92,6 +91,30 @@
 
 <body>
   <script>
+    var favicon_images = [];
+
+    for (var i = 0; i <= 359; i++) {
+      var number = String(i).padStart(4, '0');
+      var imagePath = 'assets/images/head_gif/artifact-' + number + '.jpg';
+      favicon_images.push(imagePath);
+    }
+
+    image_counter = 0; 
+
+    setInterval(function () {
+      if (document.querySelector("link[rel='icon']") !== null)
+        document.querySelector("link[rel='icon']").remove();
+      if (document.querySelector("link[rel='shortcut icon']") !== null)
+        document.querySelector("link[rel='shortcut icon']").remove();
+
+      document.querySelector("head").insertAdjacentHTML('beforeend', '');
+
+      if (image_counter == favicon_images.length - 1)
+        image_counter = 0;
+      else
+        image_counter++;
+    }, 200);
+
     class Star {
       constructor() {
         this.element = document.createElement('div');
