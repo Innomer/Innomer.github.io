@@ -35,8 +35,8 @@ permalink: /research/
 
 **Key Highlights**:
 - Evaluates various Evolutionary Algorithms like Genetic Algorithms, Differential Evolution etc. and their variants.
-- A novel hybrid training mechanism is proposed, enabling an adaptive choice between EAs and Backpropagation based on real-time training metrics.
-- Through Evolutionary Algorithms, the model's ability to generalize to unseen data is improved, showing a reduction in overfitting.
+- Proposes A novel hybrid training mechanism, enabling an adaptive choice between EAs and Backpropagation based on real-time training metrics.
+- Improves the model's ability to generalize to unseen data through Evolutionary Algorithms, showing a reduction in overfitting.
 - Includes an automated process for tuning hyperparameters, such as mutation rates in EAs and learning rates in Backpropagation.
 - Explores applications of this hybrid approach within complex architectures, such as Convolutional Neural Networks (CNNs).
 
