@@ -87,3 +87,8 @@ permalink: /projects/
 **Technologies**: Python, TensorFlow, Genetic Algorithms
 
 [Link to GitHub Repository](https://github.com/your-repo)
+
+---
+
+
+
