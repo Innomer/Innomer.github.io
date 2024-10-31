@@ -13,7 +13,7 @@
   <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   {% include head-custom.html %}
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico">
   <style>
     body {
       margin: 0;
@@ -463,7 +463,7 @@
       // if (document.querySelector("link[rel='shortcut icon']") !== null)
       //   document.querySelector("link[rel='shortcut icon']").remove();
 
-      document.querySelector("link[rel='icon']").href = favicon_images[image_counter];
+      document.querySelector("link[rel='shortcut icon']").href = favicon_images[image_counter];
     
       if (image_counter == favicon_images.length - 1)
         image_counter = 0;
