@@ -40,6 +40,3 @@ permalink: /publications/
 [Link to Paper](https://your-paper-link.com) <!-- Replace with actual paper link -->
 
 ---
-
-
-

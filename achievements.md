@@ -45,6 +45,3 @@ permalink: /achievements/
 I have had the opportunity to represent my work internationally, from competitions in space robotics to research conferences. These experiences have enriched my understanding of technology and its potential impact on the world.
 
 ---
-
-
-

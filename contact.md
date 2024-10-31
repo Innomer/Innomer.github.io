@@ -16,6 +16,3 @@ I’m always open to new ideas, opportunities, or collaborations! Whether you ha
 ## Looking forward to Connect! ✉️
 
 ---
-
-
-
