@@ -5,6 +5,8 @@ permalink: /research/
 ---
 # Research Work
 
+---
+
 ## QUESC: Environmental Sound classification Using Quantum Quantized Networks
 **Description**: This research develops a Quantized Hybrid Quantum-Classical Neural Network (QQNN) approach for Environmental Sound Classification that combines pre-trained classical layers with quantum circuits, achieving comparable accuracy to traditional methods while demonstrating quantum computing's viability in audio classification tasks.
 

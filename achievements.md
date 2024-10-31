@@ -5,6 +5,8 @@ permalink: /achievements/
 ---
 # Certifications and Achievements
 
+---
+
 ## European Rover Challenge 2024
 - **Rank**: 1st Rank (India), 2nd Rank (Asia), 11th Rank (Global)
 - **Description**: Led a team, as the Vice-Captain, to design and build a mars rover prototype, named Vidyaan, that can navigate challenging terrains and complete various tasks. This event emphasized innovative problem-solving and teamwork in space robotics, and had participants who were currently pursuing their Masters, PhDs or Bachelors.
