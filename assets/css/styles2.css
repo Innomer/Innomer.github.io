@@ -17,12 +17,12 @@ body {
 }
 
 .stars {
-    background: url('../images/stars.png') repeat;
+    background: url('../images/bg.jpg') repeat;
     animation: stars 100s linear infinite;
 }
 
 .twinkling {
-    background: url('../images/twinkling.png') repeat;
+    background: url('../images/bg2.jpg') repeat;
     animation: twinkling 200s linear infinite;
 }
 
