@@ -1,7 +1,7 @@
 remote_theme: pages-themes/midnight@v0.2.0
 # footer: custom_footer.html
 # sidebar: custom_footer.html
-title: [Mann Bhanushali]
+title: Mann Bhanushali
 description: "Final-year CS undergrad specializing in Machine Learning, Computer Vision, and Robotics."
 show_downloads: [false]
 plugins:

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+# title: Home
 permalink: /
 ---
 Welcome to my portfolio! Here, you'll find a showcase of my projects, research, and achievements in fields ranging from autonomous drones and rovers to neural network optimizations. With a strong foundation in both theoretical and practical aspects of computer science, I have engaged in diverse projects that bridge technology and innovation.

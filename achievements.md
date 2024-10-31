@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Certifications and Achievements
+# title: Certifications and Achievements
 permalink: /achievements/
 ---
 # Certifications and Achievements
