@@ -3,7 +3,6 @@ layout: default
 title: Publications
 permalink: /publications/
 ---
-
 # Publications
 
 ## Applied Auto-tuning on LoRA Hyperparameters
@@ -39,5 +38,3 @@ permalink: /publications/
 - Recommendations for practitioners based on empirical findings.
 
 [Link to Paper](https://your-paper-link.com) <!-- Replace with actual paper link -->
-
----

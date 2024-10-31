@@ -3,10 +3,6 @@ layout: default
 title: Home
 permalink: /
 ---
-
-<!-- # Mann Bhanushali
-Final-year CS undergrad specializing in Machine Learning, Computer Vision, and Robotics. -->
-
 Welcome to my portfolio! Here, you'll find a showcase of my projects, research, and achievements in fields ranging from autonomous drones and rovers to neural network optimizations. With a strong foundation in both theoretical and practical aspects of computer science, I have engaged in diverse projects that bridge technology and innovation.
 
 My journey began with a fascination for robotics and space exploration, which led me to explore various applications of artificial intelligence. As the Head of the Machine Learning Club at my institute, I mentored fellow students and fostered collaboration on cutting-edge projects, particularly in areas such as Quantum Machine Learning and its applications in sound classification, Reinforcement Learning and Anomaly Detection.
@@ -22,5 +18,3 @@ In my free time, I delve into research papers and explore new techniques in comp
 - [Achievements](./achievements/)
 - [Publications](./publications/)
 - [Contact](./contact/)
-
----

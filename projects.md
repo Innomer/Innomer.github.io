@@ -3,7 +3,6 @@ layout: default
 title: Projects
 permalink: /projects/
 ---
-
 # Projects
 
 ## Autonomous Drone for Flood Management
@@ -88,5 +87,3 @@ permalink: /projects/
 **Technologies**: Python, TensorFlow, Genetic Algorithms
 
 [Link to GitHub Repository](https://github.com/your-repo)
-
----
