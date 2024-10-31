@@ -6,8 +6,8 @@ permalink: /projects/
 # Projects
 
 ## Autonomous Drone for Flood Management
-![Autonomous Drone](https://example.com/images/drone.jpg) <!-- Replace with actual image URL -->
-**Overview**: Developed a drone specifically for emergency flood management. The drone features a customized PETG body and PLA motor arms, optimizing for lightweight and durability. Integrated with MATLAB and OpenCV for efficient marker-based navigation.
+<!-- ![Autonomous Drone](https://example.com/images/drone.jpg) Replace with actual image URL -->
+**Overview**: Developed a drone specifically for emergency flood management. The drone features a customized PETG body and PLA motor arms, optimizing for lightweight and durability. Integrated with ROS and OpenCV for efficient marker-based navigation.
 
 **Key Features**:
 - **Pixhawk and PX4 Autopilot Integration**: Ensures precise control and autonomous flight capabilities.
