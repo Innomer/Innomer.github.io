@@ -59,36 +59,41 @@
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
 } */
-/* Moving Stars Background */
-@keyframes starMovement {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(100vh); }
-}
-
-.stars {
+.stars, .twinkling {
     position: fixed;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(1px 1px, rgba(255, 255, 255, 0.6), transparent 50%) 5px 5px,
-                radial-gradient(1px 1px, rgba(255, 255, 255, 0.8), transparent 50%) 10px 10px;
-    background-size: 50px 50px;
-    animation: starMovement 20s linear infinite;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
     z-index: -1;
 }
-/* Twinkling Effect */
-@keyframes twinkling {
+
+/* Keyframes for randomized star movement */
+@keyframes drift {
+    0% { transform: translate3d(0, 0, 0); }
+    25% { transform: translate3d(-2px, 1px, 0); }
+    50% { transform: translate3d(2px, -3px, 0); }
+    75% { transform: translate3d(-1px, 2px, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+}
+
+@keyframes twinkle {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.3; }
 }
 
-.twinkling {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(1px 1px, rgba(255, 255, 255, 0.8), transparent 50%) 20px 20px,
-                radial-gradient(1px 1px, rgba(255, 255, 255, 0.6), transparent 50%) 40px 40px;
-    background-size: 75px 75px;
-    animation: starMovement 20s linear infinite, twinkling 2s ease-in-out infinite;
-    z-index: -1;
+/* Star Layer */
+.stars {
+    background: radial-gradient(1px 1px, rgba(255, 255, 255, 0.6), transparent 50%) 5px 5px,
+                radial-gradient(1px 1px, rgba(255, 255, 255, 0.8), transparent 50%) 10px 10px;
+    background-size: 50px 50px;
+    animation: drift 30s infinite linear alternate;
 }
 
+/* Twinkling Layer */
+.twinkling {
+    background: radial-gradient(1px 1px, rgba(255, 255, 255, 0.8), transparent 50%) 15px 15px,
+                radial-gradient(1px 1px, rgba(255, 255, 255, 0.6), transparent 50%) 20px 20px;
+    background-size: 100px 100px;
+    animation: drift 60s infinite linear alternate, twinkle 2s infinite ease-in-out;
+}
