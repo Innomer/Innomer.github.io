@@ -78,21 +78,38 @@
       margin: 10px auto;
     }
 
-    nav ul {
+    nav {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 10px;
+    }
+
+    .menu-button {
+      display: none;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    .menu-button:focus {
+      outline: none;
+    }
+
+    .menu {
       list-style: none;
       padding: 0;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      background: rgba(0, 0, 0, 0.8);
       margin: 0;
     }
 
-    nav ul li {
+    .menu li {
       margin: 0 10px;
     }
 
-    nav ul li a {
+    .menu li a {
       color: white;
       text-decoration: none;
       font-size: 1rem;
@@ -100,9 +117,14 @@
       display: block;
     }
 
-    nav ul li a:hover {
+    .menu li a:hover {
       background: #444;
       border-radius: 4px;
+    }
+
+    .menu-hidden {
+      display: none;
+      flex-direction: column;
     }
 
     .content {
@@ -111,20 +133,24 @@
     }
 
     @media (max-width: 768px) {
+      .menu-button {
+        display: block;
+      }
+
+      .menu {
+        display: none;
+      }
+
+      .menu-hidden {
+        display: flex;
+      }
+
       #title h1 {
         font-size: 1.5rem;
       }
 
       #title p {
         font-size: 0.9rem;
-      }
-
-      nav ul {
-        flex-direction: column;
-      }
-
-      nav ul li {
-        margin: 5px 0;
       }
 
       img {
@@ -149,7 +175,7 @@
         font-size: 0.8rem;
       }
 
-      nav ul li a {
+      .menu li a {
         font-size: 0.9rem;
         padding: 8px;
       }
@@ -215,16 +241,24 @@
         }
       });
     });
+
+    // Hamburger menu toggle
+    $(document).ready(function () {
+      $('.menu-button').click(function () {
+        $('.menu').toggleClass('menu-hidden');
+      });
+    });
   </script>
 
   <div id="header">
     <nav>
-      <ul>
-        <li class="fork"><a href="/">Home</a></li>
-        <li class="fork"><a href="/projects">Projects</a></li>
-        <li class="fork"><a href="/achievements">Certifications and Achievements</a></li>
-        <li class="fork"><a href="/research">Research Work</a></li>
-        <li class="fork"><a href="/contact">Contact</a></li>
+      <button class="menu-button">☰</button>
+      <ul class="menu menu-hidden">
+        <li><a href="/">Home</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/achievements">Certifications and Achievements</a></li>
+        <li><a href="/research">Research Work</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
     </nav>
   </div>
