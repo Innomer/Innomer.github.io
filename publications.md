@@ -28,7 +28,7 @@ permalink: /research/
 - Demonstrates a modular design combining Pixhawk flight controllers, RGB cameras, and machine learning models (YOLOv8 and DETR-ResNet50) to accurately identify and locate stranded persons.
 - Reduces rescue operation time and resource allocation by employing geofencing and pre-flood area mapping, prioritizing high-risk zones for targeted searches.
 
-[Publication Under Process]()
+[Manuscript in Preparation]()
 
 ---
 
@@ -45,7 +45,7 @@ permalink: /research/
 [Manuscript in Preparation]()
 
 ---
-
+<!-- 
 ## Iterated Prisoner’s Dilemma using Deep Q Networks
 **Description**: This study investigates the application of Deep Q Networks (DQN) to explore strategic interactions within the framework of the Iterated Prisoner's Dilemma. By simulating various strategies, the research reveals how machine learning techniques can uncover optimal decision-making pathways in competitive scenarios.
 
@@ -55,6 +55,6 @@ permalink: /research/
 - Compares use of RNNs, LSTMs, and GRUs as base Deep Learning Models for DQN and pits them against traditional techniques like Tit-for-tat, Always Cooperate, Always Defect, Grim Trigger etc.
 - Offers insights into the convergence of strategies over multiple iterations.
 
-[Publication Under Process]()
+[Manuscript Under Preparation]()
 
----
+--- -->
