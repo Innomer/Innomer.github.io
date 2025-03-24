@@ -52,7 +52,7 @@ permalink: /achievements/
 ---
 
 ## QUESC Paper Presentation
-- **Conference**: International Conference on Material Evolutionary Computing and Networks (ICECMSN 2023)
+- **Conference**: International Conference on Evolutionary Computing and Mobile Sustainable Networks (ICECMSN 2023)
 
 <!-- ![IRC24 Participation Certificate](assets/images/IRC24-Participation.jpg) Replace with actual image URL -->
 ![Certificate](assets/images/QUESC.jpg) <!-- Replace with actual image URL -->
@@ -95,7 +95,7 @@ permalink: /achievements/
 
 ## International Rover Challenge 2023
 - **Rank**: 8th Rank (Global)
-- **Description**: ERC Remote is an exciting competition where student teams create software systems to operate a common rover and robotic arm to perform tasks inspired by NASA and ESA missions.
+- **Description**: SPROS IRC is a space robotics engineering competition. It challenges university students to conceptualise, design, develop and operate an astronaut-assistive next-generation space Rover and perform specific missions in Mars simulated conditions. I was a junior member of the Coding Department for this competition.
 
 ![IRC23 Participation Certificate](assets/images/IRC23-Participation.jpg)
 ![IRC23 Rank Certificate](assets/images/IRC23-Rank.jpeg) <!-- Replace with actual image URL -->
