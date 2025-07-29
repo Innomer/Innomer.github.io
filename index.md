@@ -3,6 +3,9 @@ layout: default
 # title: Home
 permalink: /
 ---
+
+<img src="https://github.com/user-attachments/assets/9791ca36-7a75-4850-b20e-83c26860aa4b" alt="Picture" width="30%" margin="auto">
+
 Welcome to my portfolio! Here, you'll find a showcase of my projects, research, and achievements in fields ranging from autonomous drones and rovers to neural network optimizations. With a strong foundation in both theoretical and practical aspects of computer science, I have engaged in diverse projects that bridge technology and innovation.
 
 My journey began with a fascination for robotics and space exploration, which led me to explore various applications of artificial intelligence. As the Head of the Machine Learning Club at my institute, I mentored fellow students and fostered collaboration on cutting-edge projects, particularly in areas such as Quantum Machine Learning and its applications in sound classification, Reinforcement Learning and Anomaly Detection.
