@@ -4,7 +4,7 @@ layout: default
 permalink: /
 ---
 
-<img src="https://github.com/user-attachments/assets/9791ca36-7a75-4850-b20e-83c26860aa4b" alt="Picture" width="10%" margin="auto">
+<img id="profPic" src="https://github.com/user-attachments/assets/9791ca36-7a75-4850-b20e-83c26860aa4b" alt="Picture">
 
 Welcome to my portfolio! Here, you'll find a showcase of my projects, research, and achievements in fields ranging from autonomous drones and rovers to neural network optimizations. With a strong foundation in both theoretical and practical aspects of computer science, I have engaged in diverse projects that bridge technology and innovation.
 
