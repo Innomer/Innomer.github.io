@@ -7,6 +7,27 @@ permalink: /projects/
 
 ---
 
+## Software for Robot Racing Contest
+
+**Overview**: Developed an autonomous racing software stack for a differential drive robot competing in a robot racing challenge. The system leverages ROS 2 for modular integration, real-time localization using AMCL, and autonomous waypoint-following using a combination of geometric path planning, Pure Pursuit control, and PID-based tuning for smooth and aggressive lap execution.
+
+- **Fastest Autonomous Lap Time**: **1 minute 58 seconds**
+- **Manual Control Benchmark**: **1 minute 25 seconds**
+
+**Key Features**:
+- **ROS 2-Based Modular Architecture**: Ensures scalable and real-time communication between localization, planning, and control modules.
+- **AMCL Localization on SLAM-Generated Maps**: Enables reliable pose estimation in a pre-mapped indoor circuit environment.
+- **Waypoint Generation from Skeletonized Maps**: Extracts centerline paths from occupancy grids using image processing techniques like skeletonization and spline smoothing.
+- **Pure Pursuit Controller with PID Tuning**: Implements a lookahead-based path-following controller, fine-tuned with PID to reduce overshoot and oscillations.
+- **Looped Navigation**: Supports continuous lap execution by looping through waypoint indices upon completion.
+- **Visualization & Debugging Tools**: Real-time RViz markers and detailed logging tools for live monitoring and post-run analysis.
+
+**Technologies**: ROS 2 Humble, Python, OpenCV, NumPy, RViz, SLAM Toolbox, AMCL, PID Controt, Pure Pursuit Algorithm
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rMudcpMGK8k?si=NhS5z8hYmRp1004m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
 ## Autonomous Drone for Flood Management
 
 **Overview**: Researched and developed an autonomous drone system designed to assist in post-flood search and rescue operations. The drone employs a Pixhawk flight controller with integrated RGB cameras and GPS modules to streamline navigation and execute efficient mission planning and victim location reporting.
@@ -38,12 +59,12 @@ permalink: /projects/
 
 ---
 
-## Autonomous Navigation System for Vehicles
+## Modular Autonomous Navigation System (MANS) for Vehicles
 
 **Overview**: Developed a Visual SLAM-based autonomous navigation system using stereo vision to provide real-time feature detection, 3D point cloud reconstruction, and vehicle localization.
 
 **Key Features**:
-- **Modified A* Path Planning**: Implemented an algorithm that accommodates Ackermann steering geometry, ensuring continuous curvature paths.
+- **Modified A* Path Planning**: Implemented an algorithm that accommodates Ackermann steering geometry, ensuring continuous curvature paths by incorporating Reeds-Shepp heuristic into A* path finding.
 - **Motion Planning Pipeline**: Combines local trajectory optimization with global path planning for navigating dynamic environments.
 
 **Technologies**: ROS, Jetson, Python, C++, OpenCV, Gazebo, PCL, Eigen
