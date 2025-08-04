@@ -40,7 +40,7 @@ permalink: /projects/
 - **Extendable Web-Wheel Architecture**: Each wheel includes 8 articulated spokes:  
   - **Longer "+" spokes** with extended rubber patches  
   - **Shorter "X" spokes** filling in traction gaps  
-  These alternate to maintain near-continuous rolling while enabling radius modulation.
+  - These alternate to maintain near-continuous rolling while enabling radius modulation.
 - **Asymmetrical Spoke Design**: Designed for adaptive terrain contact - extend to overcome flat/higher surfaces, retract for tighter turns or stability.
 - **Isaac Sim Articulation Setup**: Each spoke is implemented as an articulated joint within Isaac Sim’s USD framework. Control is applied through scripted joint targets.
 
