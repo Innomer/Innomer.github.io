@@ -20,7 +20,7 @@ permalink: /research/
 
 ---
 
-## Drones for Post-Flood Rescue Missions
+<!-- ## Drones for Post-Flood Rescue Missions
 **Description**: This research proposes the use of autonomous drones equipped with advanced computer vision for post-flood rescue missions, enabling efficient detection and localization of stranded individuals. By integrating high-resolution cameras, GPS, and machine learning algorithms, the system aims to enhance search capabilities and improve response times during critical post-disaster periods.
 
 **Key Highlights**:
@@ -30,7 +30,7 @@ permalink: /research/
 
 [Manuscript in Preparation]()
 
----
+--- -->
 
 ## Evolutionary Algorithms for Neural Network Training
 **Description**: This publication proposes using Evolutionary Algorithms in combination with Backpropagation for training Neural Networks. The study evaluates the effectiveness, efficiency, and impact on model accuracy, aiming to identify the optimal approach for neural network training.

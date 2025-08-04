@@ -28,6 +28,28 @@ permalink: /projects/
 
 ---
 
+## X-Spand:  A Robot with Expanding Web-Wheels | Isaac Sim Showcase
+
+**Overview**: Designed and simulated a novel mobile robot, X-Spand, featuring dynamic web-wheel structures with asymmetrical, retractable spokes. Built for adaptive ground contact and experimental locomotion, the robot showcases a unique mechanism where alternating X and + spokes change length to alter wheel geometry in real time. Simulated entirely in NVIDIA Isaac Sim.
+
+- **Simulation Platform**: NVIDIA Isaac Sim
+- **Control Mode**: Differential Drive with Spoke Actuation
+- **Primary Use Case**: Adaptive Terrain Mobility & Research
+
+**Key Features**:
+- **Extendable Web-Wheel Architecture**: Each wheel includes 8 articulated spokes:  
+  - **Longer "+" spokes** with extended rubber patches  
+  - **Shorter "X" spokes** filling in traction gaps  
+  These alternate to maintain near-continuous rolling while enabling radius modulation.
+- **Asymmetrical Spoke Design**: Designed for adaptive terrain contact - extend to overcome flat/higher surfaces, retract for tighter turns or stability.
+- **Isaac Sim Articulation Setup**: Each spoke is implemented as an articulated joint within Isaac Sim’s USD framework. Control is applied through scripted joint targets.
+
+**Technologies**: Isaac Sim (Omniverse), Fusion 360, Python, URDF/USD
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2cqd9PLQQ9Q?si=3FH-et6FktVDXbJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
 ## Autonomous Drone for Flood Management
 
 **Overview**: Researched and developed an autonomous drone system designed to assist in post-flood search and rescue operations. The drone employs a Pixhawk flight controller with integrated RGB cameras and GPS modules to streamline navigation and execute efficient mission planning and victim location reporting.
