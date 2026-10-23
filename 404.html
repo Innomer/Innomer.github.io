@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mann Bhanushali — moved to mannbhanushali.com</title>
+  <link rel="canonical" href="https://mannbhanushali.com/">
+  <meta name="robots" content="noindex">
+  <script>
+    // Old Jekyll pages -> sections of the new single-page site.
+    var routes = {
+      '/projects': '/#projects',
+      '/publications': '/#publications',
+      '/achievements': '/#awards',
+      '/contact': '/#about'
+    };
+    var path = location.pathname.replace(/(\/index)?(\.html)?\/?$/, '') || '/';
+    location.replace('https://mannbhanushali.com' + (routes[path] || '/'));
+  </script>
+  <meta http-equiv="refresh" content="0; url=https://mannbhanushali.com/">
+</head>
+<body>
+  <p>This site has moved to <a href="https://mannbhanushali.com/">mannbhanushali.com</a>.</p>
+</body>
+</html>
